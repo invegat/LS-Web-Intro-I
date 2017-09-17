@@ -1,0 +1,104 @@
+svg, img {
+    display: inline;
+}
+
+#top {
+    position: absolute;
+    fill: purple;
+    width: 100%;
+    height: 127px
+}
+
+.side {
+    position: absolute;
+    y: 127px;
+    border-style: solid;
+    border-width: 1px;
+    height: calc(1102px - 127px);
+    width: 14.5%;
+    fill: rgb(245, 245, 245);
+}
+
+#right-side {
+    x: 780px;
+}
+
+#center-red {
+    position: absolute;
+    y: 127px;
+    x: 136px;
+    width: 642px;
+    height: calc(1102px - 127px);
+    fill: red
+}
+
+.blue-box {
+    position: absolute;
+    fill: blue;
+    width: 486px;
+    height: 250px;
+    x: 207px;
+}
+
+.blue-box.top {
+    y: 200px;
+}
+
+.blue-box.center {
+    y: 492px;
+}
+
+.blue-box.bottom {
+    y: 784px;
+}
+
+.yellow-square {
+    fill: yellow;
+    width: 130px;
+    height: 130px;
+    x: 231px;
+}
+
+.yellow-square.top {
+    y: 224px;
+}
+
+.yellow-square.center {
+    y: 516px;
+}
+
+.yellow-square.bottom {
+    y: 808px;
+}
+.green-rect {
+    fill:green;
+    width: 280px;
+    height: 180px;
+    x:381px;
+}
+.green-rect.top {
+    y: 226px;
+}
+.green-rect.center {
+    y: 518px;
+}
+.green-rect.bottom {
+    y: 810px;
+}
+#png {
+    position: absolute;
+    margin-left: 20px;
+    /* -webkit-transform: rotate(180deg); */
+}
+
+circle {
+    cx: 400px;
+    cy: 500px;
+    r: 50px;
+    fill: blue;
+}
+
+.zoom {
+    zoom: 0.75;
+
+}

@@ -1,0 +1,38 @@
+svg img{
+    display: inline-block;
+    display: block;
+}
+.top-bottom {
+    width: 100%;
+}
+#top {
+    fill:red;
+    height:126px;
+    y:0;
+}
+#bottom {
+    fill:green;
+    y:748px;
+    height:124px;
+}
+.thirds {
+    y:126px;
+    width:calc(100% / 3);
+    height:622px;
+}
+#first-third {
+    fill:blue;
+}
+#second-third {
+    fill:purple;
+    x: calc(100% / 3);
+}
+#third-third {
+    fill:yellow;
+    x: calc(100% / 1.5)
+}
+
+.zoom {
+    zoom: 0.75;
+
+}
