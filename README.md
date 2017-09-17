@@ -1,5 +1,6 @@
 # Homework 1
 
+## This completed homework runs only on Chrome.
 
 ## Instructions
 
